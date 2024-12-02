@@ -5,62 +5,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aplicativo de Transporte</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    /* Global Styles */
+    * {
       margin: 0;
       padding: 0;
-      background-color: #f5f5f5;
-      color: #333;
+      box-sizing: border-box;
     }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000; /* Fundo preto */
+      color: #fff; /* Texto branco */
+    }
+
+    /* Cabeçalho */
     header {
-      background-color: #222;
-      color: white;
+      background-color: #c40000; /* Vermelho */
       text-align: center;
-      padding: 20px 10px;
+      padding: 20px;
     }
+
     header h1 {
-      margin: 0;
+      font-size: 2rem;
     }
+
+    /* Container principal */
     .container {
       max-width: 1200px;
       margin: 20px auto;
       padding: 20px;
-      background: white;
+      background: #000; /* Fundo preto */
       border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
-    .content {
       text-align: center;
     }
+
+    /* Conteúdo */
     .content img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
       margin-bottom: 20px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
     }
+
     .content p {
-      font-size: 18px;
-      line-height: 1.6;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      margin-bottom: 20px;
     }
+
+    /* Rodapé */
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #222;
-      color: white;
-      margin-top: 20px;
+      background-color: #c40000; /* Vermelho */
     }
+
     footer a {
-      color: #f88;
+      color: #fff; /* Branco */
       text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+  <!-- Cabeçalho -->
   <header>
     <h1>Seu Transporte com Mais Facilidade</h1>
   </header>
+
+  <!-- Conteúdo Principal -->
   <div class="container">
     <div class="content">
+      <!-- Primeira Imagem -->
       <img src="upx1.jpg" alt="Tela do Aplicativo">
       <p>
         Nosso aplicativo de transporte oferece a você mais controle e praticidade na sua viagem. 
@@ -70,13 +91,16 @@
       </p>
       <p>
         Com uma interface intuitiva e funções avançadas, oferecemos a melhor experiência em mobilidade urbana. 
-        Faça o download do aplicativo e aproveite toda a praticidade que merecem!
+        Faça o download do aplicativo e aproveite toda a praticidade que você merece!
       </p>
-     <img src="upx2.jpg" alt="Tela do Aplicativo">
+      <!-- Segunda Imagem -->
+      <img src="upx2.jpg" alt="Tela do Aplicativo">
     </div>
   </div>
+
+  <!-- Rodapé -->
   <footer>
-    <p>Desenvolvido por <a href="#">Sua Empresa</a> &copy; 2024</p>
+    <p>Desenvolvido por <a href="#">Educabus</a> &copy; 2024</p>
   </footer>
 </body>
 </html>
